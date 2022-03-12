@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/style.css">
+   <script src="./main.js" defer></script>
+   <title>Document</title>
+</head>
+<body>
+   <main>
+      <section id="browser" class="window">
+         <header id="browserHeader">
+            <div>
+               <span id="close-button" onClick="windowHandler()"></span>
+               <span id="minimize-button" onClick="windowHandler()"></span>
+               <span id="maximize-button" onClick="fullScreen()"></span>
+            </div>
+            <h1>Safari</h1>
+         </header>
+         <section>
+            <iframe
+               src="https://www.bing.com/search?q=Fabrina+Nunes+github&form=QBLH&sp=-1&pq=&sc=0-0&qs=n&sk=&cvid=8CF7545D203F447380F6095CC1209C9A"
+               frameborder="0"></iframe>
+         </section>
+      </section>
+
+      <ul id="desktop-icons">
+         <li class="desktop-icon">
+            <img src="https://img.icons8.com/color/48/000000/empty-trash--v1.png" />
+            <span>Trash</span>
+         </li>
+         <li class="desktop-icon">
+            <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" />
+            <span>VS Code</span>
+         </li>
+         <li class="desktop-icon">
+            <img src="https://img.icons8.com/color/48/000000/mac-folder.png" />
+            <span>My Projects</span>
+         </li>
+      </ul>
+      <footer id="wrapper-menu">
+         <section id="menu-icons">
+            <img src="https://img.icons8.com/color/50/000000/spotify--v1.png" alt="spotify-icon" id="spotify" />
+            <img src="https://img.icons8.com/color/50/000000/calendar--v1.png" alt="calendar-icon" id="calendar" />
+            <img src="https://img.icons8.com/color/50/000000/ios-photos.png" alt="photos-icon" id="photos" />
+            <img src="https://img.icons8.com/color/48/000000/apple-settings.png" alt="settings-icon" id="settings" />
+            <img src="https://img.icons8.com/color/50/000000/discord-new-logo.png" alt="discord-icon" id="discord" />
+            <img src="https://img.icons8.com/color/50/000000/apple-map.png" alt="map-icon" id="map" />
+            <img src="https://img.icons8.com/color/48/000000/safari--v1.png" alt="safari-icon" id="safari"
+               onClick="windowHandler()" />
+         </section>
+      </footer>
+   </main>
+</body>
+
+</html>
